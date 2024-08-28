@@ -1,55 +1,313 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Cafeteria</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <section>
-            <a href="#" class="logo">
-                <img src="./img/logo.png" alt="logo" />
-            </a>
+      <section>
+        <a href="#" class="logo">
+          <img src="./img/logo.png" alt="logo" />
+        </a>
 
-            <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">Sobre</a>
-                <a href="#menu">Menu</a>
-                <a href="#review">Avaliação</a>
-                <a href="#address">Endereço</a>
-            </nav>
+        <nav class="navbar">
+          <a href="#">Home</a>
+          <a href="#about">Sobre</a>
+          <a href="#menu">Menu</a>
+          <a href="#review">Avaliação</a>
+          <a href="#address">Endereço</a>
+        </nav>
 
-            <div class="icons">
-                <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
-                    alt="search--v1" />
-                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
-                    alt="shopping-cart--v1" />
-            </div>
-        </section>
+        <div class="icons">
+          <img
+            width="30"
+            height="30"
+            src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png"
+            alt="search--v1"
+          />
+          <img
+            width="30"
+            height="30"
+            src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
+            alt="shopping-cart--v1"
+          />
+        </div>
+      </section>
     </header>
 
     <div class="home-container">
-        <section id="#home">
-            <div class="content">
-                <h3>O Melhor Café da Região</h3>
-                <p>O Cafena Café é o elo entre a paixão pelo café e a rica história da tradicional família da região.
-                    Com uma tradição centenária passada de geração em geração, celebramos o amor pelo café em cada
-                    xícara.</p>
-                <a href="#" class="btn">Pegue o seu agora</a>
-            </div>
-        </section>
+      <section id="#home">
+        <div class="content">
+          <h3>O Melhor Café da Região</h3>
+          <p>
+            O Cafena Café é o elo entre a paixão pelo café e a rica história <br> da
+            tradicional família da região. Com uma tradição centenária <br> passada
+            de geração em geração, celebramos <br> o amor pelo café em cada xícara.
+          </p>
+          <a href="#" class="btn">Pegue o seu agora</a>
+        </div>
+      </section>
     </div>
 
+    <section class="about" id="about">
+      <h2 class="title">Sobre <span>Nós</span></h2>
+      <div class="row">
+        <div class="container-image">
+          <img src="./img/about-img.jpg" alt="sobre nós" />
+        </div>
 
-</body>
+        <div class="content">
+          <h3>O Que Faz Nosso Café Especial</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatibus illum dolorum commodi sunt quidem atque ea illo
+            asperiores reiciendis aliquam tempora ipsum, maiores sit. Dolorem
+            esse repellat voluptates temporibus dolores.
+            <br />
+            <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab
+            beatae tempore impedit incidunt accusantium ipsa culpa mollitia
+            aperiam inventore, cumque perferendis aliquid assumenda eaque vero
+            labore odit ad nostrum.
+          </p>
 
+          <a href="#" class="btn">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h2 class="title">Nosso <span>Menu</span></h2>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/menu-1.png" alt="item-1" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 13,99 <span>R$18,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-2.png" alt="item-2" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 8,99 <span>R$10,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-3.png" alt="item-3" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 11,99 <span>R$14,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-4.png" alt="item-4" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 15,99 <span>R$20,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-5.png" alt="item-5" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 18,99 <span>R$20,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+
+        <div class="box">
+          <img src="./img/menu-6.png" alt="item-6" />
+          <h3>Café coado</h3>
+          <div class="price">R$ 9,99 <span>R$11,99</span></div>
+          <a href="#" class="btn">Adicione ao Carrinho</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="review" id="review">
+      <h2 class="title">Nossos <span>Clientes</span></h2>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/quote-img.png" alt="comentario" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae veniam
+            hic suscipit dignissimos, rerum repellat, facere minus fugiat eius
+            dolorum nemo ut inventore mollitia quam assumenda aut molestias
+            perferendis. Fugit!
+          </p>
+          <img src="./img/pic-1.png" alt="foto-cliente" class="user"/>
+          <h3>Lucas Guilherme</h3>
+          <div class="stars">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+              alt="star-half-empty"
+            />
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img/quote-img.png" alt="comentario" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae veniam
+            hic suscipit dignissimos, rerum repellat, facere minus fugiat eius
+            dolorum nemo ut inventore mollitia quam assumenda aut molestias
+            perferendis. Fugit!
+          </p>
+          <img src="./img/pic-2.png" alt="foto-cliente" class="user"/>
+          <h3>Maria Silva</h3>
+          <div class="stars">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+              alt="star-half-empty"
+            />
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./img/quote-img.png" alt="comentario" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae veniam
+            hic suscipit dignissimos, rerum repellat, facere minus fugiat eius
+            dolorum nemo ut inventore mollitia quam assumenda aut molestias
+            perferendis. Fugit!
+          </p>
+          <img src="./img/pic-3.png" alt="foto-cliente" class="user"/>
+          <h3>Gabriel Sallate</h3>
+          <div class="stars">
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+              alt="star--v1"
+            />
+            <img
+              width="30"
+              height="30"
+              src="https://img.icons8.com/ios-filled/30/ffffff/star-half-empty.png"
+              alt="star-half-empty"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="address" id="address">
+      <h2 class="title">Nosso <span>Endereço</span></h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4974.725373174882!2d-60.016425225029046!3d-3.113132196862399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c0545311cdd3f%3A0x1c9c05834f78cf5a!2sEdif%C3%ADcio%20The%20Office!5e1!3m2!1spt-BR!2sbr!4v1724872745715!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="footer">
+      <div class="share">
+       
+        <p>Para mais informações entre em contato!</p>
+        <a href="https://www.instagram.com/thayanee_oliveiraa"
+          ><img
+            src="./img/Dakirby309-Simply-Styled-Instagram.32.png"
+            alt="instagram"
+        /></a>
+        <a href="https://www.linkedin.com/in/thayane-oliveira-008962288"
+          ><img
+            src="./img/Graphics-Vibe-Classic-3d-Social-Linkedin.32.png"
+            alt="Linkedin"
+        /></a>
+        <a href="https://wa.me/5592984240118" target="_blank">
+          <img
+            src="./img/Alecive-Flatwoken-Apps-Whatsapp.32.png"
+            alt="whatsapp"
+          />
+        </a>
+      </div>
+
+    </section>
+
+
+  </body>
 </html>
